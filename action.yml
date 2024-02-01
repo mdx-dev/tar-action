@@ -1,7 +1,7 @@
 name: "Tar action"
 description: "A cross platform github action for using tar."
 branding:
-  icon: 'box'  
+  icon: 'box'
   color: 'green'
 inputs:
   cwd:
@@ -20,5 +20,5 @@ outputs:
   done:
     description: "returns true if successful"
 runs:
-  using: "node16"
+  using: "node20"
   main: "index.js"
